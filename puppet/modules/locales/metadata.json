@@ -1,0 +1,26 @@
+{
+  "license": "Apache License, Version 2.0",
+  "source": "UNKNOWN",
+  "types": [
+
+  ],
+  "project_page": "https://github.com/saz/puppet-locales",
+  "description": "Manage locales via Puppet",
+  "dependencies": [
+
+  ],
+  "summary": "UNKNOWN",
+  "author": "saz",
+  "version": "2.0.0",
+  "name": "saz-locales",
+  "checksums": {
+    "spec/spec_helper.rb": "ca19ec4f451ebc7fdb035b52eae6e909",
+    "manifests/params.pp": "f4858837549dfba811f9996417f7dc35",
+    "templates/locale.gen.erb": "238da1acd13c820cfda1bdfb375baffb",
+    "README.md": "78be07e8c517559a8909fd1c27537aef",
+    "tests/init.pp": "b924c2e05e488a0118ce375341477886",
+    "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "Modulefile": "a73e607d3b7907fed6ddc109520f5035",
+    "manifests/init.pp": "9c812f6a913b0c146dfb283b0d4a7e61"
+  }
+}

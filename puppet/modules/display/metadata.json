@@ -1,0 +1,30 @@
+{
+  "name": "p0deje-display",
+  "version": "0.2.1",
+  "source": "git://github.com/p0deje/puppet-display.git",
+  "author": "Alex Rodionov",
+  "license": "Apache License, Version 2.0",
+  "summary": "Puppet module which sets up Xvfb + x11vnc as remote display",
+  "description": "Puppet module which sets up Xvfb + x11vnc as remote display",
+  "project_page": "https://github.com/p0deje/puppet-display",
+  "dependencies": [
+    {
+      "name": "ripienaar/concat",
+      "version_requirement": ">= 0.2.0"
+    }
+  ],
+  "types": [
+
+  ],
+  "checksums": {
+    "Modulefile": "4f2ba585d03289de3a6c15dc8660f913",
+    "README.md": "f39c2fcd2ab18807bffc5a21751b68b0",
+    "manifests/env.pp": "ed1a486f823b986c957c3b1000c23867",
+    "manifests/init.pp": "70ff9e0e97357e33866f3f77abde0514",
+    "manifests/x11vnc.pp": "115ddea4c42a895eb24df7bd7689db5b",
+    "manifests/xvfb.pp": "14bd32f0389bf1d8fa0f1906ceb13b64",
+    "templates/x11vnc.erb": "93bbae3f1b8ed526c7ae9b09d541da22",
+    "templates/xvfb.erb": "0ec7b8462ffad1b91201c0dccab143d7",
+    "tests/init.pp": "1288c21a57bb06cbdd111e9bac9d9fa9"
+  }
+}

@@ -1,0 +1,12 @@
+%div{'ng-controller' => 'ItemCtrl'}
+  %span
+    {{status}}
+  %br
+  %input{'ng-model' => 'newItem'}
+  %button{'ng-click' => 'add(newItem)'}
+    Add Item
+  %ul
+    %li{'ng-repeat' => 'item in items'}
+      {{item.name}}
+      %button{'ng-click' => 'remove(items.indexOf(item))'}
+        Remove
